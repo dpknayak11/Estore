@@ -1,21 +1,27 @@
 import React from 'react'
+import Navbar from '../Navbar/Navbar'
+import Header from '../Header/Header'
+import MainSlider from '../Slider/MainSlider'
+import BrandSlider from '../BrandSlider/BrandSlider'
+import Feature from '../../Pages/Feature'
+import Review from '../../Pages/Review'
+import Footer from '../Footer/Footer'
 
 function HomePage() {
     return (
-        <div class="top-bar">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <i class="fa fa-envelope"></i>
-                        support@email.com
-                    </div>
-                    <div class="col-sm-6">
-                        <i class="fa fa-phone-alt"></i>
-                        +012-345-6789
-                    </div>
-                </div>
-            </div>
-        </div>
+<>
+<Navbar />
+<Header />
+<MainSlider />
+<BrandSlider />
+<Feature />
+
+
+
+
+<Review />
+<Footer />
+</>
     )
 }
 

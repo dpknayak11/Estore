@@ -6,6 +6,7 @@ import BrandSlider from '../BrandSlider/BrandSlider'
 import Feature from '../../Pages/Feature'
 import Review from '../../Pages/Review'
 import Footer from '../Footer/Footer'
+import Category from '../../Pages/Category'
 
 function HomePage() {
     return (
@@ -16,7 +17,7 @@ function HomePage() {
 <BrandSlider />
 <Feature />
 
-
+<Category />
 
 
 <Review />
